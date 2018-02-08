@@ -70,7 +70,7 @@ public class ThirdPartyActivity extends AppCompatActivity {
     @OnPermissionDenied(Manifest.permission.CALL_PHONE)
     //用户选择拒绝时的提示
     void showDenied(){
-        Toast.makeText(this, "用户选择拒绝时的提示", Toast.LENGTH_SHORT).show();
+        Toast.makeText(ThirdPartyActivity.this, "用户选择拒绝时的提示", Toast.LENGTH_SHORT).show();
     }
 
     @OnNeverAskAgain(Manifest.permission.CALL_PHONE)
