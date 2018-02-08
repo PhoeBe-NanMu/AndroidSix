@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidSix</string>
+    <string name="btn_cal">拨打</string>
+    <string name="btn_change">跳转</string>
+</resources>
